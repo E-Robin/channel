@@ -4,11 +4,16 @@
 }
 
 body{
+
     opacity: 0.95;
-    background-image:url("images/5.jpg")  ;
+
+    /* we have added opacity in background image without affecting the other elements in front of background image */
+    background-image: url("images/5.jpg")  ;
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("images/5.jpg")  ; */
     background-repeat: no-repeat;
     background-size: cover;
-
+    /* background-color: black; */
+    
     min-height: 100%;
     padding-top: 20px;
     margin: 0px;
@@ -87,3 +92,30 @@ div.item{
     }
     
 
+
+    @media  (max-width:600px)
+    {
+      
+   div.container{
+    margin: auto;
+    /* padding:2px; */
+     height: 550px;
+     width: 100%;
+     
+     position: relative;
+    
+ 
+     background-color:black;
+     opacity: 0.95;
+    display: grid;
+    /* grid-template-rows: 350px 350px; */
+    /* grid-template-columns:350px 350px 350px ; */
+    row-gap: 2px;
+    column-gap: 2px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
+}
+       
+ 
+
+    }
