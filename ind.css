@@ -93,6 +93,8 @@ div.item{
     
 
 
+
+
     @media  (max-width:600px)
     {
       
@@ -116,6 +118,22 @@ div.item{
     grid-template-columns: 1fr 1fr ;
 }
        
- 
+ body{
+
+    opacity: 0.95;
+
+    /* we have added opacity in background image without affecting the other elements in front of background image */
+    background-image: url("images/5.jpg")  ;
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("images/5.jpg")  ; */
+    background-repeat: no-repeat;
+    background-size: 400px;
+    /* background-color: black; */
+    
+    min-height: 100%;
+    padding-top: 20px;
+    margin: 0px;
+    width:443px;
+    height:621px;
+}
 
     }
