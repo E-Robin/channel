@@ -126,7 +126,7 @@ div.item{
     background-image: url("images/5.jpg")  ;
     background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("images/5.jpg")  ;
     background-repeat: no-repeat;
-    background-size:auto;
+    background-size:700px;
     /* background-color: black; */
     
     min-height: 100%;
