@@ -9,7 +9,7 @@ body{
 
     /* we have added opacity in background image without affecting the other elements in front of background image */
     background-image: url("images/5.jpg")  ;
-    /* background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("images/5.jpg")  ; */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("images/5.jpg")  ;
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: black; */
@@ -124,9 +124,9 @@ div.item{
 
     /* we have added opacity in background image without affecting the other elements in front of background image */
     background-image: url("images/5.jpg")  ;
-    /* background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("images/5.jpg")  ; */
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("images/5.jpg")  ;
     background-repeat: no-repeat;
-    background-size: 400px;
+    background-size:auto;
     /* background-color: black; */
     
     min-height: 100%;
@@ -134,6 +134,11 @@ div.item{
     margin: 0px;
     width:443px;
     height:621px;
+}
+
+
+p{
+    width: 309px;
 }
 
     }
