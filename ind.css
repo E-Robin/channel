@@ -127,7 +127,7 @@ div.item{
     background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("images/5.jpg")  ;
     background-repeat: no-repeat;
     background-size:700px;
-    /* background-color: black; */
+    background-color: black;
     
     min-height: 100%;
     padding-top: 20px;
@@ -142,7 +142,7 @@ p{
 }
 
 .intro{
-    margin-bottom: 150px;
+    margin-bottom: 120px;
     padding:20px;
 
 }
