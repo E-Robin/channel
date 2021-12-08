@@ -8,7 +8,7 @@ body{
     opacity: 0.95;
 
     /* we have added opacity in background image without affecting the other elements in front of background image */
-    background-image: url("images/5.jpg")  ;
+    /* background-image: url("images/5.jpg")  ; */
     background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("images/5.jpg")  ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,14 +19,7 @@ body{
     margin: 0px;
 }
 
- section.head{ 
-     
-    
-    
-    
-
-
-}
+ 
 
 nav{
     margin-left: 70%;
@@ -44,12 +37,20 @@ a{
     color:black;
     background-color:white;
     border-radius: 3px;
-    padding:2px;
+    padding:3px;
+    margin:5px;
+}
+/* ................................  */
+nav li a:hover{
+    background-color: skyblue;
 }
 
 
 
+
+
 div.container{
+    border-radius: 25px;
     margin: auto;
     /* padding:2px; */
      height: 550px;
@@ -59,7 +60,7 @@ div.container{
     
  
      background-color:black;
-     opacity: 0.95;
+     opacity: 0.85;
     display: grid;
     /* grid-template-rows: 350px 350px; */
     /* grid-template-columns:350px 350px 350px ; */
