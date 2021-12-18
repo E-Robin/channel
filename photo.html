@@ -8,18 +8,55 @@
 </head>
 
 <style>
+    *{
+        margin: 0px;
+        padding:0px;
+    }
+    div.header{
+          background-color:rgba(218, 202, 202, 0.74);
+          
+         /* background-color:rgb(111, 148, 163); */
+        color: white;
+        /* margin: 0px; */
+        padding: 10px;
+        padding-bottom: 0px;
+        opacity: 0.6;
+        
+    }
+    /* .header h1.text {
+        color: gray;
+        padding:4px;
+        filter: drop-shadow(-5px -3px 1px rgba(255,255,255,0.3) ),
+               drop-shadow(15px 5px 10px rgba(0,0,0,0.2)),
+               drop-shadow(15px 15px 25px rgba(0,0,0,0.2));
+               opacity: 0.6;
+    } */
 body{
+   /* background-color: #f1f1f1!important; */
+
+   background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("images/phonee.jpg")  ;
+    background-repeat:repeat-y;
+    background-size:contain;
+   background-color: lightgoldenrodyellow;
    
     text-align: center;
-     color:whitesmoke;
-    background-color: black;
-    opacity: 0.8;
+     
+margin:auto;
+  
   
     
 }
 
+/* .blur{
+    backdrop-filter: 20px;
+    background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(8px); 
+  height: 100vh;
+  width: 50%;
+} */
+
 section{
-    background-color: black;
+    /* background-color: black; */
     margin: 50px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -35,8 +72,8 @@ div.item{
     /* text-align: center; */
     /* align-items: center; */
     /* justify-content: center; */
-    padding:8px;
-   
+    padding:20px;
+   /* background-color: #fff!important; */
     margin: auto;
 }
 
@@ -47,8 +84,9 @@ div.item img{
 align-items: center;
 width: 260px;
 height: 190px;;
-border-radius: 8px;
+border-radius: 4px;
 transition:all 1.4s ease-in-out ;
+box-shadow: -3px -3px 2px rgb(255,255, 255, 0.3),5px 5px 4px rgba(0, 0, 0, 0.2),15px 15px 10px rgba(0, 0, 0, 0.2); 
 
 }
 div.item img:hover  {
@@ -75,8 +113,18 @@ border-radius: 8px; */
 div.item2 img{
     width: 230px;
     height:300px;
-    border-radius:8px;
+    border-radius:3px;
+    box-shadow: -3px -3px 2px rgb(255,255, 255, 0.3),5px 5px 5px rgba(0, 0, 0, 0.2),15px 15px 15px rgba(0, 0, 0, 0.2);    
+    
+        transition:all 1.4s ease-in-out ;
 }
+
+div.item2 img:hover{
+    cursor: pointer;
+    transform: scale(1.6)   translateY(20px);
+}
+
+
 nav{
     margin-left: 70%;
     display: flex;
@@ -94,22 +142,48 @@ a{
     background-color:white;
     border-radius: 3px;
     padding:2px;
+    text-decoration:none;
+    box-shadow:4px 4px 3px black;
 }
 
+a:hover{
+    /* background-color:rgb(34, 153, 23); */
+    background-color: rgb(68, 165, 204);
+    color:whitesmoke;
+    padding-right: 20px ;
+}
+
+
+
+div.head{
+    margin: 8px;
+color:black;
+}
+div.head h3{
+    margin:9px;
+    
+}
 </style>
 <body>
     <div class="header">
-        <h1 style="text-align: center;" >The AnttShuntt-Vlogs channnel</h1>
+        <h1 style="text-align: center;" class="text" >The AnttShuntt-Vlogs channel</h1>
         <nav>
             <li><a href="index.html">Home</a> </li>
             <li> <a href="photo.html">Photos</a></li>
-            <li><a href="http://">Aboutus</a></li>
+            <li><a href="about.html">Aboutus</a></li>
             <li><a href="http://">login</a></li>
         </nav>
+        
+        
        </div>
-    <head><h2> Memories to refresh future </h2></head>
-    <p> <h3>We have started our journey to explore beautiful places and alog with that we kept  our memories here to refresh our future</h3></p>
-    
+       <hr>
+       <div class="head">
+    <head>
+        <h3>Photo Gallery! </h3>
+    <p> We have started our journey to explore beautiful places and alog with that we kept  our memories here to refresh our future</p>
+</head></div>
+
+
     <section>
         <div class="item">
             <img src="images/2.jpeg" alt="" srcset="" width="300px" height="300px">
@@ -124,6 +198,7 @@ a{
         <div class="item">
             <img src="images/55.jpeg" alt="" srcset="" width="300px" height="300px">
         </div>
+        
         <div class="item">
             <img src="images/6.jpeg" alt="" srcset="" width="300px" height="300px">
         </div>

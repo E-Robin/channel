@@ -3,9 +3,13 @@
     padding:0;
 }
 
+
+
+
+
 body{
 
-    opacity: 0.95;
+    opacity: 0.96;
 
     /* we have added opacity in background image without affecting the other elements in front of background image */
     /* background-image: url("images/5.jpg")  ; */
@@ -33,7 +37,8 @@ nav li{margin:7px;
 }
 
 a{
-    
+   box-shadow: 3px 3px 4px black;
+    text-decoration: none;
     color:black;
     background-color:white;
     border-radius: 3px;
@@ -42,7 +47,10 @@ a{
 }
 /* ................................  */
 nav li a:hover{
-    background-color: skyblue;
+    background-color: rgb(68, 165, 204);
+    padding:6px;
+    padding-right:15px;
+    color:white;
 }
 
 
@@ -50,7 +58,7 @@ nav li a:hover{
 
 
 div.container{
-    border-radius: 25px;
+    border-top-left-radius: 10px;
     margin: auto;
     /* padding:2px; */
      height: 550px;
@@ -59,8 +67,8 @@ div.container{
      position: relative;
     
  
-     background-color:black;
-     opacity: 0.85;
+     background-color:white;
+     opacity: 0.8;
     display: grid;
     /* grid-template-rows: 350px 350px; */
     /* grid-template-columns:350px 350px 350px ; */
@@ -92,6 +100,24 @@ div.item{
    
     }
     
+footer{
+    background-color:gray;
+    opacity: 1;
+    padding:20px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    
+}
+footer nav{
+   
+    margin-left: 0px;
+    margin: auto;
+   
+}
+footer nav a{
+    
+}
 
 
 
