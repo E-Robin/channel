@@ -124,25 +124,31 @@ footer nav a{
 
     @media  (max-width:600px)
     {
+
+    div.item iframe {
+        width: 560px;
+        height: 400px;
+    }    
       
    div.container{
-    margin: auto;
+    margin: 0px;
     /* padding:2px; */
      height: 550px;
      width: fit-content;
-     
+     background-color: blue;
      position: relative;
     
  
-     background-color:black;
+     /* background-color:black; */
      opacity: 0.95;
-    display: grid;
+     display: block;
+    /* display: grid; */
     /* grid-template-rows: 350px 350px; */
     /* grid-template-columns:350px 350px 350px ; */
-    row-gap: 2px;
-    column-gap: 2px;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr  ;
+    /* row-gap: 2px; */
+    /* column-gap: 2px; */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr  ; */
 }
        
  body{
@@ -176,6 +182,8 @@ p{
 
 div.item{
     padding:2px;
+    background-color:rgb(26, 197, 189);
+    width:590px;
 }
 
     }
