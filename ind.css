@@ -183,22 +183,23 @@ p{
 div.item{
     padding:4px;
     background-color:rgb(26, 197, 189);
-    width:603px;
+    width:668px;
 }
 footer{
-    background-color:gray;
+    background-color:rgb(114, 104, 104);
     opacity: 1;
-    padding:20px;
+    padding:35px;
     text-align: center;
     align-items: center;
-    margin-top:1462px;
-    width: 600px;
+    margin-top:1450px;
+    width: 607px;
     
 }
 footer nav{
    
     margin-left: 0px;
     margin: auto;
+    padding-left:120px;
    
 }
 footer nav a{
