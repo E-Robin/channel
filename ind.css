@@ -140,7 +140,7 @@ footer nav a{
     
  
      /* background-color:black; */
-     opacity: 0.95;
+     opacity: 0.98;
      display: block;
     /* display: grid; */
     /* grid-template-rows: 350px 350px; */
@@ -175,15 +175,36 @@ p{
 }
 
 .intro{
-    margin-bottom: 120px;
+    margin-bottom: 150px;
     padding:20px;
 
 }
 
 div.item{
-    padding:2px;
+    padding:4px;
     background-color:rgb(26, 197, 189);
     width:603px;
 }
+footer{
+    background-color:gray;
+    opacity: 1;
+    padding:20px;
+    text-align: center;
+    align-items: center;
+    margin-top:1462px;
+    width: 600px;
+    
+}
+footer nav{
+   
+    margin-left: 0px;
+    margin: auto;
+   
+}
+footer nav a{
+    
+}
+
+
 
     }
