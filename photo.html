@@ -34,10 +34,10 @@
 body{
    /* background-color: #f1f1f1!important; */
 
-   background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("images/phonee.jpg")  ;
+   /* background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("images/phonee.jpg")  ; */
     background-repeat:repeat-y;
     background-size:contain;
-   background-color: lightgoldenrodyellow;
+   background-color: rgb(94, 94, 86);
    
     text-align: center;
      
@@ -163,6 +163,29 @@ div.head h3{
     margin:9px;
     
 }
+
+@media (max-width:600px){
+    section{
+    /* background-color: black; */
+    margin:auto;
+    display: grid;
+    grid-template-rows:auto;
+    grid-template-columns:auto;
+    height: 1500px;
+   
+    row-gap: 10px;
+    column-gap: 10px;
+}
+nav{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+    
+}
+
 </style>
 <body>
     <div class="header">
