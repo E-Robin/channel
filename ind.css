@@ -159,7 +159,7 @@ footer nav a{
     /* we have added opacity in background image without affecting the other elements in front of background image */
     background-image: url("images/5.jpg")  ;
     background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("images/5.jpg")  ;
-    background-repeat: no-repeat;
+    background-repeat: initial;
     background-size:700px;
     background-color: black;
     
